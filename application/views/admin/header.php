@@ -53,6 +53,12 @@
                 Item
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="<?php echo base_url('Jenis') ?>">
+                <span data-feather="file-text"></span>
+                Jenis
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
