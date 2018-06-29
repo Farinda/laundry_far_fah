@@ -1,37 +1,15 @@
 <?php $this->load->view('admin/header') ?>
+<link type="text/css" rel="stylesheet" href="<?php echo base_url()?>assets/jsgrid/jsgrid.min.css" />
+<link type="text/css" rel="stylesheet" href="<?php echo base_url()?>assets/jsgrid/jsgrid-theme.min.css" />
 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
 	<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
 		<h1 class="h1">Data Jenis</h1>
 
 	</div>
 	<h4>List Data</h4>
-	<a href="<?php echo base_url('Jenis/create') ?>" class="btn btn-primary">Tambah</a>
-
-					<table class="table table-bordered table-hover table-inverse mt-3">
-						<thead>
-							<tr>
-								<th>No</th>
-								<th>Nama</th>
-								<th>Ratio</th>
-								<th>aksi</th>
-							</tr>
-						</thead>
-						<tbody>
-							<?php $nomor = 1; ?>
-							<?php foreach ($jenis_data as $value): ?>
-								<tr>
-									<td><?php echo $nomor; ?></td>
-									<td><?php echo $value->nama ?></td>
-									<td><?php echo $value->ratio ?></td>
-									<td>
-										<a href="<?php echo base_url('Jenis/update/'.$value->id) ?>" class="btn btn-sm btn-success">Update</a>
-										<a href="<?php echo base_url('Jenis/delete/'.$value->id) ?>" class="btn btn-sm btn-danger">Delete</a>
-									</td>
-								</tr>
-								<?php $nomor++; ?>
-							<?php endforeach ?>
-						</tbody>
-					</table>
+	<div id="jsGrid"></div>
 	
 </main>
 <?php $this->load->view('admin/footer') ?>
+<script type="text/javascript" src="<?php echo base_url()?>assets/jsgrid/jsgrid.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url()?>assets/custom/grid.js"></script>
