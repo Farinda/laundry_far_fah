@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 15, 2018 at 12:24 PM
+-- Generation Time: Jun 15, 2018 at 01:02 PM
 -- Server version: 10.1.26-MariaDB
 -- PHP Version: 7.1.9
 
@@ -77,7 +77,8 @@ CREATE TABLE `pegawai` (
 --
 
 INSERT INTO `pegawai` (`id`, `nama`, `alamat`, `nohp`, `username`, `password`, `level`, `foto`) VALUES
-(1, '1', '1', '1', '1', 'c4ca4238a0b923820dcc509a6f75849b', '1', '1');
+(1, '1', '1', '1', '1', 'c4ca4238a0b923820dcc509a6f75849b', 'admin', 'Code.png'),
+(2, '2', '2', '2', '2', '2', 'admin', 'logoaldansorry.png');
 
 --
 -- Indexes for dumped tables
@@ -124,7 +125,7 @@ ALTER TABLE `jenis`
 -- AUTO_INCREMENT for table `pegawai`
 --
 ALTER TABLE `pegawai`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
