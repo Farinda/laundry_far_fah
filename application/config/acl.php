@@ -78,7 +78,12 @@ $acl = array(
 		'pencuci' => false,
 		'penyetrika' => false
 	),
-
+	'Pegawai' => array(
+		'admin' => true,
+		'operator' => false,
+		'pencuci' => false,
+		'penyetrika' => false
+	),
 );
 
 /* -----------------------------
