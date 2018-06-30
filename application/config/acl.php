@@ -84,6 +84,12 @@ $acl = array(
 		'pencuci' => false,
 		'penyetrika' => false
 	),
+	'Transaksi' => array(
+		'admin' => true,
+		'operator' => false,
+		'pencuci' => false,
+		'penyetrika' => false
+	),
 );
 
 /* -----------------------------
