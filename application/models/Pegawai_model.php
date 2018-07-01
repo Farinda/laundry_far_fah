@@ -21,7 +21,7 @@ class Pegawai_model extends CI_Model {
 			'alamat' => $this->input->post('alamat'),
 			'nohp' => $this->input->post('nohp'),
 			'username' => $this->input->post('username'),
-			'password' => $this->input->post('password'),
+			'password' => md5($this->input->post('password')),
 			'level' => $this->input->post('level'),
 			'foto' => $this->upload->data('file_name')
 		);
@@ -34,7 +34,7 @@ class Pegawai_model extends CI_Model {
 			'alamat' => $this->input->post('alamat'),
 			'nohp' => $this->input->post('nohp'),
 			'username' => $this->input->post('username'),
-			'password' => $this->input->post('password'),
+			'password' => md5($this->input->post('password')),
 			'level' => $this->input->post('level'),
 			'foto' => $this->upload->data('file_name')
 		);

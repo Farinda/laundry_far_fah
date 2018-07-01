@@ -81,8 +81,7 @@ class Pegawai extends CI_Controller {
 			$this->load->library('upload', $config);
 			
 			if ( ! $this->upload->do_upload('foto')){
-				$data['sepatu'] = $this->Sepatu_model->getSepatu($id);
-				$data['error'] = array('error' => $this->upload->display_errors());
+				$data['error'] = $this->upload->display_errors();
 				$this->load->view('admin/pegawai/update_view',$data);
 			}
 			else{

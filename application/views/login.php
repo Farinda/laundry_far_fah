@@ -1,157 +1,85 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Login Screen Project - Made by Abdulmecit Demirhan</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<title>Login V3</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="<?php echo base_url('assets_login/') ?>images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets_login/') ?>vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets_login/') ?>fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets_login/') ?>fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets_login/') ?>vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets_login/') ?>vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets_login/') ?>vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets_login/') ?>vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets_login/') ?>vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets_login/') ?>css/util.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets_login/') ?>css/main.css">
+<!--===============================================================================================-->
 </head>
 <body>
-	<div id="giris"> 
-		<div class="resim">
+	
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('<?php echo base_url('assets_login/') ?>images/bg-01.jpg');">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form" method="post">
+					<span class="login100-form-logo">
+						<i class="zmdi zmdi-landscape"></i>
+					</span>
 
-			<div class="kg">
-				<h1>Login Admin</h1>
-				<p><?php echo validation_errors(); ?></p>
-				<?php echo form_open('') ?>
-				Username:<br>
-				<input type="text" class="email" name="username"></input><br>
-				Password:<br>
-				<input type="password"  class="sifre" name="password"></input><br>
-				<input type="submit" class="buton" value="Login"></input>
-				<?php echo form_close(); ?>
+					<span class="login100-form-title p-b-34 p-t-27">
+						Log in
+					</span>
+					<p><?php echo validation_errors(); ?></p>
+					<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Username">
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<input class="input100" type="password" name="password" placeholder="Password">
+						<span class="focus-input100" data-placeholder="&#xf191;"></span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Login
+						</button>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="<?php echo base_url('assets_login/') ?>vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="<?php echo base_url('assets_login/') ?>vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="<?php echo base_url('assets_login/') ?>vendor/bootstrap/js/popper.js"></script>
+	<script src="<?php echo base_url('assets_login/') ?>vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="<?php echo base_url('assets_login/') ?>vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="<?php echo base_url('assets_login/') ?>vendor/daterangepicker/moment.min.js"></script>
+	<script src="<?php echo base_url('assets_login/') ?>vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="<?php echo base_url('assets_login/') ?>vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="<?php echo base_url('assets_login/') ?>js/main.js"></script>
+
 </body>
 </html>
-<style>
-body{
-
-	background: white;
-	font-family: 'Montserrat', sans-serif;
-
-}
-
-#giris {
-	
-	background:white;
-	width:500px;
-	height:500px;
-	margin-top:90px;
-	margin-left:auto;
-	margin-right: auto;
-	border-radius:15px;
-	-webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	-moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-}
-.kg h1{
-	
-	font-size:25px;
-	margin-top:-90px;
-	position:relative;
-	top:-50px;
-
-}
-.kg p{
-	
-	
-	font-size:15px;
-	position:relative;
-	top:-45px;
-}
-.kg a {
-	width:90px;
-	height:30px;
-	text-decoration:none;
-	color:blue;
-	font-size:10px;
-	position:relative;
-	top:-15px;
-	left:55px;
-}
-.resim {
-	
-	background:url(<?php echo base_url('assets/img/login-header.jpg') ?>) ;
-	background-repeat:no-repeat;
-	background-size: cover;
-	width:170px;
-	height:460px;
-	padding:20px;
-	border-top-left-radius:15px;
-	border-bottom-left-radius:15px;
-}
-.kg {
-
-
-	width:170px;
-	height:500px;
-	margin-left:220px;
-	margin-top:180px;
-}
-input {
-	border:none;
-	margin-bottom:30px;
-}
-input[type="text"] {
-	width:220px;
-	height:25px;
-	border-bottom:2px solid #adadad;
-}
-input[type="text"]:focus {
-	width:220px;
-	height:25px;
-	border-bottom:2px solid #324D5C;
-	outline:none;
-	transition:0.5s;
-}
-input[type="password"] {
-	width:220px;
-	height:25px;
-	border-bottom:2px solid #adadad;
-	
-}
-input[type="password"]:focus {
-	width:220px;
-	height:25px;
-	border-bottom:2px solid #324D5C;
-	transition:0.5s;
-	outline:none;
-	
-}
-input[type="button"] {
-	margin-top:-5px;
-	margin-left:65px;
-	height:35px;
-	width:90px;
-	outline:none;
-	background-color:#540032;
-	color:white;
-	border-radius:10px;
-}
-input[type="button"]:focus {
-	margin-top:-5px;
-	margin-left:65px;
-	height:35px;
-	width:90px;
-	outline:none;
-	background-color:#2E112D;
-	color:white;
-	transition:0.5s;
-	border-radius:10px;
-}
-input[type="button"]:hover {
-	margin-top:-5px;
-	margin-left:65px;
-	height:35px;
-	width:90px;
-	outline:none;
-	background-color:#1C61BF;
-	color:white;
-	transition:0.5s;
-	border-radius:10px;
-}
-
-
-
-
-</style>

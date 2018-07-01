@@ -1,30 +1,76 @@
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="zxx">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" href="../../../../favicon.ico">
+    <meta charset="utf-8">
+    <meta name="author" content="John Doe">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Home</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="<?php echo base_url('assets_home/') ?>images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/ico" href="<?php echo base_url('assets_home/') ?>images/favicon.ico" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="<?php echo base_url('assets_home/') ?>css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets_home/') ?>css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets_home/') ?>css/themify-icons.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets_home/') ?>css/magnific-popup.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets_home/') ?>css/animate.css">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="<?php echo base_url('assets_home/') ?>css/normalize.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets_home/') ?>style.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets_home/') ?>css/responsive.css">
+    <script src="<?php echo base_url('assets_home/') ?>js/vendor/modernizr-2.8.3.min.js"></script>
 
-  <title>Laundry</title>
-
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="<?php echo base_url('vendor/bootstrap/css/bootstrap.min.css') ?>">
-
-  <!-- Custom styles for this template -->
-  <link href="<?php echo base_url() ?>assets/css/cover.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-<body class="text-center" background="<?php echo base_url('assets/img/bg.jpg') ?>" style="background-size: cover;">
+<body data-spy="scroll" data-target="#primary-menu">
 
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="masthead mb-auto">
-      <div class="inner">
-        <h3 class="masthead-brand">Laundry</h3>
-        <nav class="nav nav-masthead justify-content-center">
-          <a class="nav-link active" href="#">Home</a>
-           <a class="nav-link" href="<?php echo base_url('Login') ?>">Login</a>
-        </nav>
-      </div>
-    </header>
+    <div class="preloader">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <!--Mainmenu-area-->
+    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
+        <div class="container">
+            <!--Logo-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand logo">
+                    <h2>FF LAUNDRY</h2>
+                </a>
+            </div>
+            <!--Logo/-->
+            <nav class="collapse navbar-collapse" id="primary-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#home-page">Home</a></li>
+                    <li><a href="#service-page">Service</a></li>
+                    <li><a href="#feature-page">Features</a></li>
+                    <li><a href="#price-page">Pricing</a></li>
+                    <li><a href="#blog-page">Blog</a></li>
+                    <li><a href="#contact-page">Contact</a></li>
+                    <li><a href="<?php echo base_url('Login') ?>">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!--Mainmenu-area/-->
+
+
+
+

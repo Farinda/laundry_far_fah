@@ -1,16 +1,21 @@
-    <footer class="mastfoot mt-auto">
-      <div class="inner">
-        <p>copyright &copy; 2018</p>
-      </div>
-    </footer>
-  </div>
 
 
-    <!-- Bootstrap core JavaScript
-      ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <script src="<?php echo base_url('vendor/jquery/js/jquery.min.js') ?>"></script>
-      <script src="<?php echo base_url('vendor/popper/js/popper.min.js') ?>"></script>
-      <script src="<?php echo base_url('vendor/bootstrap/js/bootstrap.min.js') ?>"></script>
-    </body>
-    </html>
+
+
+
+
+    <!--Vendor-JS-->
+    <script src="<?php echo base_url('assets_home/') ?>js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="<?php echo base_url('assets_home/') ?>js/vendor/bootstrap.min.js"></script>
+    <!--Plugin-JS-->
+    <script src="<?php echo base_url('assets_home/') ?>js/owl.carousel.min.js"></script>
+    <script src="<?php echo base_url('assets_home/') ?>js/contact-form.js"></script>
+    <script src="<?php echo base_url('assets_home/') ?>js/jquery.parallax-1.1.3.js"></script>
+    <script src="<?php echo base_url('assets_home/') ?>js/scrollUp.min.js"></script>
+    <script src="<?php echo base_url('assets_home/') ?>js/magnific-popup.min.js"></script>
+    <script src="<?php echo base_url('assets_home/') ?>js/wow.min.js"></script>
+    <!--Main-active-JS-->
+    <script src="<?php echo base_url('assets_home/') ?>js/main.js"></script>
+</body>
+
+</html>
