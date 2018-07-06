@@ -7,7 +7,12 @@
             <div class="row v-center">
                 <div class="col-xs-12 col-md-7 header-text">
                     <h2></h2>
-                    <p>adalah perusahaan yang bergerak di bidang jasa yang akan memenuhi kebutuhan pelanggan dalam hal perawatan pakaian secara professional, dan dengan konsep terbaru yang lebih baik, yaitu : 
+                    <div class="">
+                        <img src="<?php echo base_url('assets/')?>img/Code.png" style="max-height: 150px" alt="">
+                    </div>
+                    <p>
+                    </p>
+                    <p><strong>FF Laundry </strong>adalah perusahaan yang bergerak di bidang jasa yang akan memenuhi kebutuhan pelanggan dalam hal perawatan pakaian secara professional, dan dengan konsep terbaru yang lebih baik, yaitu : 
 “ Laundry, Dry Cleaning & Wet Clean “.</p>
                     
                 </div>
@@ -18,9 +23,6 @@
                         </div>
                         <div class="item">
                             <img src="<?php echo base_url('assets/') ?>img/2.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo base_url('assets_home/') ?>images/screen-3.jpg" alt="">
                         </div>
                         
                     </div>
@@ -74,31 +76,6 @@
                 <div class="col-xs-12">
                     <div id="caption_slide" class="carousel slide caption-slider" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
-                            <div class="item active row">
-                                <div class="v-center">
-                                    <div class="col-xs-12 col-md-6">
-                                        <div class="caption-title" data-animation="animated fadeInUp">
-                                            <h2>Easy to build</h2>
-                                        </div>
-                                        <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
-                                        </div>
-                                        <div class="caption-button" data-animation="animated fadeInUp">
-                                            <a href="#" class="button">Read more</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo one" data-animation="animated fadeInRight">
-                                            <img src="<?php echo base_url('assets_home/') ?>images/screen-1.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="<?php echo base_url('assets_home/') ?>images/screen-2.jpg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="item row">
                                 <div class="v-center">
                                     <div class="col-xs-12 col-md-6">
@@ -106,21 +83,20 @@
                                             <h2>Cuci Basah</h2>
                                         </div>
                                         <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                            <p>kami memfasilitasi bagi mereka yang hanya berkenan untuk
+                                            memcuci tanpa kering dengan jangka pengambilan yang telah di tentukan karena 
+                                            untuk mengantisipasi kerusakan terhadap pakaian anda</p>
                                         </div>
                                         <div class="caption-button" data-animation="animated fadeInUp">
                                             <a href="#" class="button">Read more</a>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo one" data-animation="animated fadeInRight">
-                                            <img src="<?php echo base_url('assets_home/') ?>images/screen-3.jpg" alt="">
+                                        <div class="caption-photo" data-animation="animated fadeInRight">
+                                            <img src="<?php echo base_url('assets/') ?>img/laundry1.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="<?php echo base_url('assets_home/') ?>images/screen-4.jpg" alt="">
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -131,20 +107,18 @@
                                             <h2>Cuci Setrika</h2>
                                         </div>
                                         <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                            <p>Dengan ini kami pun memberikan fasilitas teradap pelanggan jika kalian 
+                                            ingin merapikan pakaian kalian sendiri</p>
                                         </div>
                                         <div class="caption-button" data-animation="animated fadeInUp">
                                             <a href="#" class="button">Read more</a>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo one" data-animation="animated fadeInRight">
-                                            <img src="<?php echo base_url('assets_home/') ?>images/screen-7.jpg" alt="">
-                                        </div>
                                     </div>
                                     <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="<?php echo base_url('assets_home/') ?>images/screen-2.jpg" alt="">
+                                        <div class="caption-photo " data-animation="animated fadeInRight">
+                                            <img src="<?php echo base_url('assets/') ?>img/laundry2.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -156,20 +130,16 @@
                                             <h2>Cuci Kering</h2>
                                         </div>
                                         <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                            <p>Fasilitas ini memberikan kepuasan dan penyelesaian yang efisien karena kalian bisa 
+                                            langsung menggunakan pakaian kalian langsung karena sudah rapi</p>
                                         </div>
                                         <div class="caption-button" data-animation="animated fadeInUp">
                                             <a href="#" class="button">Read more</a>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo one" data-animation="animated fadeInRight">
-                                            <img src="<?php echo base_url('assets_home/') ?>images/screen-3.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="<?php echo base_url('assets_home/') ?>images/screen-4.jpg" alt="">
+                                        <div class="caption-photo" data-animation="animated fadeInRight">
+                                            <img src="<?php echo base_url('assets/') ?>img/laundry3.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -203,8 +173,8 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="page-title">
-                        <h2>SPECIAL FEATURES</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                        <h2>Spesial Facility</h2>
+                        <p>Memberikan kenyamanan serta keamanan terhadap pakaian anda</p>
                     </div>
                 </div>
             </div>
@@ -214,8 +184,8 @@
                         <div class="box-icon">
                             <img src="<?php echo base_url('assets_home/') ?>images/portfolio-icon-1.png" alt="">
                         </div>
-                        <h3>Creative Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                        <h3>Parfum</h3>
+                        <p>pewangi yang kami gunakan adalah wangi wangian yang telah diuji ketahanannya dan keamanannya </p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -223,8 +193,8 @@
                         <div class="box-icon">
                             <img src="<?php echo base_url('assets_home/') ?>images/portfolio-icon-2.png" alt="">
                         </div>
-                        <h3>Unlimited Features</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                        <h3>Treatment</h3>
+                        <p>prosedur kami telah di uji keamanannya </p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -232,8 +202,8 @@
                         <div class="box-icon">
                             <img src="<?php echo base_url('assets_home/') ?>images/portfolio-icon-3.png" alt="">
                         </div>
-                        <h3>Full Free Chat</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                        <h3>Kontak Aktif</h3>
+                        <p>kami memfasilitasi terhadap kalian yang ingin berkeluh kesah</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -241,26 +211,8 @@
                         <div class="box-icon">
                             <img src="<?php echo base_url('assets_home/') ?>images/portfolio-icon-4.png" alt="">
                         </div>
-                        <h3>Retina ready</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="<?php echo base_url('assets_home/') ?>images/portfolio-icon-5.png" alt="">
-                        </div>
-                        <h3>High Resolution</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="<?php echo base_url('assets_home/') ?>images/portfolio-icon-6.png" alt="">
-                        </div>
-                        <h3>Clean Codes</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                        <h3>Siap Dan laksanakan</h3>
+                        <p>ketika barang telah jadi maka kami akan sengera menginformasikan kepada anda</p>
                     </div>
                 </div>
             </div>
@@ -275,7 +227,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="page-title">
-                        <h2>Afortable Price</h2>
+                        <h2>LIST HARGA</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
                     </div>
                 </div>
@@ -283,51 +235,50 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-4">
                     <div class="price-table">
-                        <h3 class="text-uppercase price-title">Basic</h3>
+                        <h3 class="text-uppercase price-title">Cuci Basah</h3>
                         <hr>
                         <ul class="list-unstyled">
-                            <li><strong class="amount">$ <span class="big">20</span></strong>/Month</li>
-                            <li>100 MB Disk Space</li>
-                            <li>2 Subdomains</li>
-                            <li>5 Email Accounts</li>
-                            <li>Webmail Support</li>
-                            <li>Customer Support 24/7</li>
+                           
+                            <li><strong>7.000/kg</strong></li>
+                            <li>jangka penyelesaian : 2 hari/Setoran</li>
+                        </ul>
+                        <ul>
+                             <li><strong class="amount">Rp. <span class="big">80.000</span></strong>/Bulan</li>
                         </ul>
                         <hr>
-                        <a href="#" class="button">Purchase</a>
+                        <a href="#" class="button">Berlangganan</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4">
                     <div class="price-table active">
                         <span class="price-info"><span class="ti-crown"></span></span>
-                        <h3 class="text-uppercase price-title">STABDARD</h3>
+                        <h3 class="text-uppercase price-title">Cuci Kering</h3>
                         <hr>
                         <ul class="list-unstyled">
-                            <li><strong class="amount">$ <span class="big">39</span></strong>/Month</li>
-                            <li>100 MB Disk Space</li>
-                            <li>2 Subdomains</li>
-                            <li>5 Email Accounts</li>
-                            <li>Webmail Support</li>
-                            <li>Customer Support 24/7</li>
+                            <li><strong>9.000/kg</strong></li>
+                            <li>jangka penyelesaian : 2 hari/Setoran</li>
+                        </ul>
+                        <ul>
+                            <li><strong class="amount">Rp. <span class="big">100.000</span></strong>/Bulan</li>
                         </ul>
                         <hr>
-                        <a href="#" class="button">Purchase</a>
+                        <a href="#" class="button">Berlangganan</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4">
                     <div class="price-table">
-                        <h3 class="text-uppercase price-title">UNLIMITED</h3>
+                        <h3 class="text-uppercase price-title">Cuci Setrika</h3>
                         <hr>
                         <ul class="list-unstyled">
-                            <li><strong class="amount">$ <span class="big">59</span></strong>/Month</li>
-                            <li>100 MB Disk Space</li>
-                            <li>2 Subdomains</li>
-                            <li>5 Email Accounts</li>
-                            <li>Webmail Support</li>
-                            <li>Customer Support 24/7</li>
+                            <li><strong>12.000/kg</strong></li>
+                            <li>jangka Penyelesaian : 3 hari/Setoran</li>
+                        </ul>
+                        <ul>
+                            
+                            <li><strong class="amount">Rp.<span class="big">200.000</span></strong>/Bulan</li>
                         </ul>
                         <hr>
-                        <a href="#" class="button">Purchase</a>
+                        <a href="#" class="button">Berlanggaan</a>
                     </div>
                 </div>
             </div>

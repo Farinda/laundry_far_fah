@@ -11,7 +11,7 @@
     <!-- Title -->
     <title>Home</title>
     <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" href="<?php echo base_url('assets_home/') ?>images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="<?php echo base_url('assets/') ?>img/Code.png">
     <link rel="shortcut icon" type="image/ico" href="<?php echo base_url('assets_home/') ?>images/favicon.ico" />
     <!-- Plugin-CSS -->
     <link rel="stylesheet" href="<?php echo base_url('assets_home/') ?>css/bootstrap.min.css">

@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 15, 2018 at 03:32 PM
+-- Generation Time: Jul 04, 2018 at 06:27 AM
 -- Server version: 10.1.26-MariaDB
--- PHP Version: 7.1.9
+-- PHP Version: 7.0.22
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -41,7 +41,7 @@ CREATE TABLE `item` (
 
 INSERT INTO `item` (`id`, `nama`, `harga`, `tanggal`) VALUES
 (2, 'Baju', 500, '2018-06-15 16:47:46'),
-(4, 'Celana', 500, '2018-06-15 16:48:34');
+(4, 'Celana', 1000, '2018-06-15 16:48:34');
 
 -- --------------------------------------------------------
 
@@ -60,9 +60,9 @@ CREATE TABLE `jenis` (
 --
 
 INSERT INTO `jenis` (`id`, `nama`, `ratio`) VALUES
-(1, '1', 1),
-(2, '2333', 233),
-(3, '33333', 33);
+(1, 'cuci basah', 1),
+(2, 'cuci kering', 1.2),
+(3, 'cuci setrika', 1.5);
 
 -- --------------------------------------------------------
 
@@ -87,7 +87,8 @@ CREATE TABLE `pegawai` (
 
 INSERT INTO `pegawai` (`id`, `nama`, `alamat`, `nohp`, `username`, `password`, `level`, `foto`) VALUES
 (1, '1', '1', '1', '1', 'c4ca4238a0b923820dcc509a6f75849b', 'admin', 'Code.png'),
-(2, '2', '2', '2', '2', '2', 'admin', 'logoaldansorry.png');
+(2, '2', '2', '2', '2', '2', 'admin', 'logoaldansorry.png'),
+(3, 'Farinda', 'Malang', '081789876567', 'Farinda', '202cb962ac59075b964b07152d234b70', 'admin', '123.jpg');
 
 -- --------------------------------------------------------
 
@@ -110,7 +111,9 @@ CREATE TABLE `transaksi` (
 --
 
 INSERT INTO `transaksi` (`id`, `nomor`, `nama`, `tanggal`, `status`, `fk_jenis`, `fk_pegawai`) VALUES
-(1, 'TRN00001', '3', '2018-06-15', 2, 1, 1);
+(1, 'TRN00001', '3', '2018-06-15', 2, 1, 1),
+(2, 'TRN00002', 'jelita', '2018-07-01', 1, 1, 3),
+(3, 'TRN00003', '12w', '2018-07-01', 0, 1, 3);
 
 -- --------------------------------------------------------
 
@@ -131,7 +134,8 @@ CREATE TABLE `transaksi_detail` (
 
 INSERT INTO `transaksi_detail` (`id`, `fk_transaksi`, `fk_item`, `jumlah`) VALUES
 (2, 1, 2, 1),
-(8, 1, 2, 1);
+(8, 1, 2, 1),
+(9, 2, 4, 2);
 
 --
 -- Indexes for dumped tables
@@ -182,7 +186,7 @@ ALTER TABLE `transaksi_detail`
 -- AUTO_INCREMENT for table `item`
 --
 ALTER TABLE `item`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `jenis`
@@ -194,19 +198,19 @@ ALTER TABLE `jenis`
 -- AUTO_INCREMENT for table `pegawai`
 --
 ALTER TABLE `pegawai`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `transaksi`
 --
 ALTER TABLE `transaksi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `transaksi_detail`
 --
 ALTER TABLE `transaksi_detail`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- Constraints for dumped tables
