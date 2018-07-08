@@ -62,7 +62,6 @@
                     <li><a href="#service-page">Service</a></li>
                     <li><a href="#feature-page">Features</a></li>
                     <li><a href="#price-page">Pricing</a></li>
-                    <li><a href="#blog-page">Blog</a></li>
                     <li><a href="#contact-page">Contact</a></li>
                     <li><a href="<?php echo base_url('Login') ?>">Login</a></li>
                 </ul>
