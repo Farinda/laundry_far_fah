@@ -59,7 +59,7 @@
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#home-page">Home</a></li>
-                    <li><a href="#service-page">Service</a></li>
+                    <li><a href="#service-page">Track</a></li>
                     <li><a href="#feature-page">Features</a></li>
                     <li><a href="#price-page">Pricing</a></li>
                     <li><a href="#contact-page">Contact</a></li>
