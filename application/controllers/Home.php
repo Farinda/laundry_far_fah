@@ -10,20 +10,20 @@ class Home extends CI_Controller {
 	public function track()
 	{
 		$nomor = $this->input->post('nomor');
-		$query =$this->db->where('nomor',$nomor)->get('transaksi');
-		if ($query->num_rows() > 1) {
+		$query = $this->db->where('nomor',$nomor)->get('transaksi');
+		if ($query->num_rows() >= 1) {
 			$status = $query->row(0)->status;
 		}else{
 			$status = 0;
 		}
 		switch ($status) {
-			case '1':
+			case 1:
 				$track = "Belum dicuci";
 				break;
-			case '2':
+			case 2:
 				$track = "Masih dicuci";
 				break;
-			case '3':
+			case 3:
 				$track = "Selesai";
 				break;
 			default:

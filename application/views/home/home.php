@@ -63,7 +63,7 @@
     </section>
     <!--Feature-area/-->
 
-    <section class="angle-bg sky-bg section-padding">
+    <section class="angle-bg sky-bg section-padding" id="feature-page">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -159,7 +159,7 @@
 
 
 
-    <section class="gray-bg section-padding" id="feature-page">
+    <section class="gray-bg section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
@@ -275,7 +275,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-4">
+                    <div class="col-md-4" style="margin-left:37%">
                         <address class="side-icon-boxes">
                             <div class="side-icon-box">
                                 <div class="side-icon">
