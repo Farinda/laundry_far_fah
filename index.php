@@ -56,6 +56,7 @@
 
 
 this is something that need to do
+	But i'm not sure it can
 
 
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
